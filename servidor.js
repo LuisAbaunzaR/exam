@@ -100,7 +100,7 @@ app.delete("/api/student/:id/", (request, response) => {
 
 
 //usar en local host
-var PORT = process.env.port || 8801;
+var PORT = process.env.PORT || 8801;
  app.listen(PORT,()=>{
     console.log(`Servidor Corriendo en el puerto ${PORT}`)
  })
